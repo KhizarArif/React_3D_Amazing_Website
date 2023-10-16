@@ -1,28 +1,18 @@
 import {
-  mobile,
   backend,
-  creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
-  meta,
   starbucks,
   tesla,
-  shopify,
   carrent,
-  jobit,
-  tripguide,
-  threejs,
+  jobit
 } from "../assets";
 
 export const navLinks = [
@@ -48,7 +38,7 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
-  } 
+  }
 ];
 
 const technologies = [
@@ -63,7 +53,7 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
-  }, 
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -79,11 +69,11 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
-  },  
+  },
   {
     name: "git",
     icon: git,
-  }, 
+  },
 ];
 
 const experiences = [
@@ -112,7 +102,7 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  }, 
+  },
 ];
 
 const testimonials = [
@@ -144,20 +134,20 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SmartEyes",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to monitor cameras live streaming on web browser, purchase camera license from SuperAdmin. Create new users and assign different role to the user. ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Styled Components",
         color: "pink-text-gradient",
       },
     ],
@@ -165,26 +155,26 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "NettBox",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web-based platform that allows users to monitor cameras live streaming on web browser, purchase camera license from SuperAdmin. Create new users and assign different role to the user. I have done only designning part. ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Styled Components",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
     source_code_link: "https://github.com/",
-  }, 
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
